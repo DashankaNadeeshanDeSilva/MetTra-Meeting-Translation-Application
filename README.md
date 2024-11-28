@@ -1,1 +1,1 @@
-# MetTra-Meeting-Translation-Application-with-Speaker-Diarization
+# MetTra-Meeting-Translation-Application
