@@ -23,7 +23,7 @@ The application consists of three main components:
 - Streams the audio to the backend in real-time using WebSocket.
 - Displays the translated transcription received from the backend.
 
-Technical Components:
+* Technical Components:
 
 - FastAPI: For handling WebSocket connections and API routes.
 - OpenAI Whisper: For robust and accurate transcription of audio.
@@ -36,7 +36,7 @@ Technical Components:
 - Translates the transcription from German to English using an NLP model.
 - Communicates with the frontend via WebSocket.
 
-Technical Components:
+* Technical Components:
 
 - WebSocket-based communication.
 - AudioContext API: For capturing and processing microphone input.
