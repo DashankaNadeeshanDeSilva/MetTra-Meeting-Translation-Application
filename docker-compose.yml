@@ -1,0 +1,22 @@
+version: "3.10"
+
+services:
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./backend:/app # Mounts the backend directory from your local machine to the /app directory in the container
+
+
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./frontend:/app
+
+    depends_on:
+      - backend
