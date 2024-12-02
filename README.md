@@ -55,7 +55,9 @@ Digram...
 - Install Docker Desktop
 - Clone this repo
 
-#### TO run locally
+#### How to Run
+
+##### Run locally
 
 - Build Docker Images: ```docker-compose build```
 - Run Docker Containers: ```docker-compose up```
@@ -68,6 +70,8 @@ Digram...
     - Speak in German and see the real-time transcription and translation into English.
 
 - Stop the Application: ```docker-compose down```
+
+##### Deployed in cloud
 
 ### Challenges Faced
 
