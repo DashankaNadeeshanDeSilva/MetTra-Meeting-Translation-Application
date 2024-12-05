@@ -9,8 +9,6 @@ meeting_translator_app/
 │   │   ├── services/         # Core business logic and services
 │   │   │   ├── transcription_service.py
 │   │   │   └── translation_service.py
-│   │   └── utils/            # Utility functions
-│   │       └── token_generator.py
 │   ├── Dockerfile            # Docker setup for the backend service
 │   ├── requirements.txt      # Python dependencies for the backend
 │   └── tests/                # Unit tests for the backend services
